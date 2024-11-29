@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "bill_count": {
+      "17-06-2024": 21,
+      "18-07-2024": 3
+    }
+  },
+  "products": {
+  "product_id_1": {
+    "barcode": "123456789012",
+    "name": "Dog Food",
+    "price": 150
+  },
+  "product_id_2": {
+    "barcode": "234567890123",
+    "name": "Cat Food",
+    "price": 250
+  },
+  "product_id_3": {
+    "barcode": "345678901234",
+    "name": "Fish Food",
+    "price": 30
+  },
+  "product_id_4": {
+    "barcode": "456789012345",
+    "name": "Bird Seed",
+    "price": 20
+  },
+  "product_id_5": {
+    "barcode": "567890123456",
+    "name": "Dog Leash",
+    "price": 120
+  },
+  "product_id_6": {
+    "barcode": "678901234567",
+    "name": "Dog Collar",
+    "price": 80
+  },
+  "product_id_7": {
+    "barcode": "789012345678",
+    "name": "Dog Toys",
+    "price": 50
+  },
+  "product_id_8": {
+    "barcode": "890123456789",
+    "name": "Dog Shampoo",
+    "price": 200
+  },
+  "product_id_9": {
+    "barcode": "901234567890",
+    "name": "Dog Bed",
+    "price": 450
+  },
+  "product_id_10": {
+    "barcode": "012345678901",
+    "name": "Dog Treats",
+    "price": 100
+  }
+},
+  "purchases": {
+    "-O2Qw1x0cypM8iHgoDKb": {
+      "customerEmail": "sid@gmail.com",
+      "customerName": "sid",
+      "discount": 0,
+      "finalAmount": 5000,
+      "items": [
+        {
+          "barcode": "234567890123",
+          "name": "Cat Food",
+          "price": 500,
+          "quantity": 2
+        }
+      ],
+      "paymentMethod": "cash",
+      "purchaseDate": "2024-07-22T19:34:29.442Z",
+      "totalPrice": 500
+    },
+    "-O2R-qgmAc2F3TYg02Ft": {
+      "customerEmail": "sid@gmail.com",
+      "customerName": "sid",
+      "items": [
+        {
+          "barcode": "345678901234",
+          "name": "Fish Food",
+          "price": 30,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "cash",
+      "purchaseDate": "2024-07-22T19:55:29.970Z",
+      "totalPrice": 30
+    }
+    
+  }
+}

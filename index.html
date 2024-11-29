@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store Billing & Records</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('images/BG.png') no-repeat center center fixed; 
+            background-size: cover;
+            color: #fff; 
+        }
+        .header {
+            background: url('images/.png') no-repeat center center;
+            height: 200px;
+            background-size: contain;
+        }
+        .option-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            height: 250px; 
+            text-align: center;
+            transition: transform 0.2s;
+            background: rgba(17, 18, 19, 0.7); /* Semi-transparent background for cards */
+        }
+        .option-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .option-card p {
+            flex-grow: 1; 
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header mb-4"></header>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-3 mb-4 d-flex">
+                <div class="option-card p-4 flex-fill">
+                    <h3>Billing</h3>
+                    <p>Manage customer billing information</p>
+                    <a href="billing\index.html" class="btn btn-primary">Go to Billing</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 d-flex">
+                <div class="option-card p-4 flex-fill">
+                    <h3>Sales</h3>
+                    <p>Record and track sales data</p>
+                    <a href="sales/report.html" class="btn btn-primary">Go to Sales</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 d-flex">
+                <div class="option-card p-4 flex-fill">
+                    <h3>Return and Exchange</h3>
+                    <p>Manage product returns and exchanges</p>
+                    <a href="returns_outstandings/return&exchange.html" class="btn btn-primary">Go to Returns</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 d-flex">
+                <div class="option-card p-4 flex-fill">
+                    <h3>Customer Outstandings</h3>
+                    <p>Manage customer Outstandings</p>
+                    <a href="returns_outstandings/return&exchange.html" class="btn btn-primary">Go to Outstandings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
